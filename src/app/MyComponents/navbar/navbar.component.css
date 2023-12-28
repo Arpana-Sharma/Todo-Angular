@@ -1,0 +1,15 @@
+nav{
+    padding-left: 20px;
+    width: 100%;
+}
+form{
+    position: absolute;
+    display: flex;
+    right: 0px;
+}
+button{
+    margin: 10px;
+}
+#navbarSupportedContent{
+    width: 100vw;
+}

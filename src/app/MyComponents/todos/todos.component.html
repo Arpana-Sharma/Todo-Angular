@@ -1,0 +1,8 @@
+<div>
+  <h3>Todos App By Khushi</h3>
+    <app-form-todo (todoAdd)="todoAdd($event)"></app-form-todo>
+    <ul *ngFor="let todo of todos">
+       <li><app-todo-item [todo]="todo" (todoDelete)="deleteTodo($event)"
+         (todoCheckBox) = "toggleTodo($event)"></app-todo-item></li> 
+    </ul>
+</div>
